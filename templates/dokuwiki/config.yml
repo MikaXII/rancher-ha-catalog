@@ -1,6 +1,5 @@
 name : Dokuwiki
-description: |
-	Dokuwiki 
+description: "Dokuwiki" 
 version: 2016-06-26a
 category: Applications
 maintainer: "MikaXII <mika@recalbox.com>"
