@@ -1,6 +1,6 @@
 .catalog:
   name: dokuwiki
-  version: 2016-06
+  version: 2016-06-26a-rancher1
   description: "wiki"
   minimum_rancher_version: v0.59.0
   maintainer: "MikaXII <mika@recalbox.com>"

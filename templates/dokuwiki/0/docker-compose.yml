@@ -1,11 +1,13 @@
 dokuwiki:
   ports:
   - ${port}:80/tcp
-  log_driver: ''
   image: recalbox/dokuwiki
   volumes_from:
   - dokuwiki-data
+  labels:
+    io.rancher.sidekicks: dokuwiki-data
 dokuwiki-data:
   image: busybox
   net: none
-
+  labels:
+    io.rancher.container.start_once: 'true'
